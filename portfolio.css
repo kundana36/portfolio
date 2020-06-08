@@ -63,9 +63,9 @@
 	margin-right:auto;
 	margin-left:auto;
 }
-@media screen and (max-width:300px)
+@media screen and (min-width:300px)
 {
-	#AboutData{
+	#About{
 		width: auto;
 		overflow-x:hidden;
 		
