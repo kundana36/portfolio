@@ -59,7 +59,7 @@
 
 @media screen and (max-width:400px)
 {
-	body{
+	#About{
       width: fit-content;
   }
 }
