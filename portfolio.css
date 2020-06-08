@@ -16,6 +16,7 @@
 #About
 {
 	margin-top:-200px;
+	margin-left:300px;
 }
 #About .fa
 {
@@ -63,11 +64,11 @@
 	margin-right:auto;
 	margin-left:auto;
 }
+
 @media screen and (min-width:300px)
 {
 	#About{
-		width: auto;
-		overflow-x:hidden;
+		width: fit-content;
 		
 	}
 }
