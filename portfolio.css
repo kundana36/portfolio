@@ -1,5 +1,5 @@
  body {
-    color: #e74c3c;
+   
 
 }
 # Header a:hover
@@ -57,11 +57,17 @@
 	border-width:2px;
 	margin-top:6px;
 }
+.container-fluid{
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+}
 @media screen and (max-width:400px)
 {
 	body{
 		width: fit-content;
-		overflow:hidden;
+		overflow-x:hidden;
 	}
 }
 /*media queries :tablet landscapess
