@@ -1,8 +1,7 @@
- body {
-   
-
+ body{
+    color: #e74c3c;
 }
-# Header a:hover
+#Header a:hover
 {
 	color:#FFF;
 }
@@ -15,9 +14,7 @@
 }
 #About
 {
-	margin-top:-200px;
-	margin-left:300px;
-
+	margin-top:-300px;
 }
 #About .fa
 {
@@ -29,7 +26,7 @@
 }
 #About hr{
 	border-width:2px;
-	margin-top:06px;
+	margin-top:6px;
 }
 #Skills span{
 	padding:10px 20px 10px 20px;
@@ -59,21 +56,17 @@
 	border-width:2px;
 	margin-top:6px;
 }
-.container-fluid{
-	padding-right:15px;
-	padding-left:15px;
-	margin-right:auto;
-	margin-left:auto;
+
+@media screen and (max-width:415px)
+{
+	body{
+      width: fit-content;
+  }
 }
 
-@media screen and (min-width:300px)
-{
-	#About{
-		width:fit-content;
-		margin-right:0px;
-		
-	}
-}
+
+
+
 /*media queries :tablet landscapess
 @media screen and(max-width:1060px)
 {
@@ -109,31 +102,3 @@
 		font-size:1.5rem;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
