@@ -57,7 +57,7 @@
 	margin-top:6px;
 }
 
-@media screen and (min-width:416px)
+@media screen and (max-width:400px)
 {
 	#About{
       width: fit-content;
