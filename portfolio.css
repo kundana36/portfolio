@@ -16,6 +16,7 @@
 #About
 {
 	margin-top:-200px;
+	margin-left:300px;
 
 }
 #About .fa
@@ -69,7 +70,7 @@
 {
 	#About{
 		width:fit-content;
-		margin-left:0px;
+		margin-right:0px;
 		
 	}
 }
