@@ -14,10 +14,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </head>
 
 
-<body  data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target=".navbar">
 
 <!--Navbar-->
 <div id="Header">
@@ -26,7 +27,7 @@
 <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
 <span class="navbar-toggler-icon"></span>
 </button>
-<a href="#" class="navbar-brand"><h3>Portfolio</h3></a>
+<a href="#" class="navbar-brand"><h3>Tayi Kundana</h3></a>
 <div class="collapse navbar-collapse" id="Navbar">
 <ul class="navbar-nav ml-auto">
 <li class="nav-item"><a href="#About"class="nav-link">About Me</a>
@@ -40,7 +41,7 @@
 </div>
 </br>
 </br>
-<div id="bg-img"><img src="img/girl.png" mx-20></div>
+<div id="bg-img"><img src="img/lap.jpg" mx-20></div>
 
 <div id="About">
 <div class="container">
@@ -48,9 +49,9 @@
 
 <div class="col">
 <div id="AboutData">
-<div class="card bg-white">
+<div class="card bg-light">
 <div class="card-title my-5">
-<div class="media"col-sm-4>
+<div class="media">
 <img src="img/about.png" width="200" height="200" class="img-fluid rounded-top mx-5 d-none d-lg-block">
 <div class="media-body">
 <h3 class="display-4 ml-5">Tayi Kundana</h3>
@@ -84,8 +85,7 @@
 </div>
 </div>
 <div class="card-footer bg-dark py-1">
-<a href="#"><i class="fa fa-facebook fa-2x-ml-5"></i></a>
-<a href="#"><i class="fa fa-instagram fa-2x-ml-9"></i></a>
+
 </div>
 </div>
 </div>
@@ -94,6 +94,12 @@
 </div>
 </div>
 </div>
+<style>
+body{
+  background-color:#e2e5e3;
+
+}
+</style>
 <div class="container mt-5">
 <div class="row">
 <div class="col">
@@ -177,7 +183,7 @@
 </br>
 </div>
 <div class="form-group">
-<button class="btn btn-success text-white">Submit</button>
+<button onclick="submit()" class="btn btn-success text-white">Submit</button>
 </div>
 </div>
 </div>
@@ -185,6 +191,19 @@
 </div>
 </div>
 </div>
+<script>
+      function submit() {
+        Swal.fire({
+          position: 'top-end',
+          icon: 'success',
+          title: 'Thank you! we will get back to you.',
+          showConfirmButton: false,
+          timer: 1900
+        })
+      }
+
+
+    </script>
 <!--footer-->
 <div class="container-fluid bg-dark">
 <div class="row">
